@@ -1,8 +1,8 @@
 Django
-djangorestframework  # If using Django Rest Framework
-Pillow  # For handling product images
-psycopg2  # PostgreSQL database adapter
-psycopg-binary
+djangorestframework
+Pillow
+psycopg2
 django-filter
-
-# Add any other packages as needed
+gunicorn
+django-cors-headers
+django-environ
